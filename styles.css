@@ -1,0 +1,74 @@
+
+:root{
+    --primary-color:#6366f1;
+    --accent-color:#3f83f8;
+    --text-color:#333333;
+    --link-color:#2563eb;
+    --background-color:#ffffff;
+    --light-gray:#f0f0f0;
+    --gray:#808080;
+    --dark-gray:#555;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+.logo {
+  text-decoration: none; 
+  color: var(--text-color);
+  gap: 0.625rem;
+  display: flex;
+  align-items: center;
+
+}
+.logo-icon{
+    height: 5.875rem;
+    width: 1.938rem;
+}
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header-content {
+    padding: 1rem;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links li {
+  margin-left: 14px;
+  transform: color 0.1s;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+.nav-links li :hover{
+    color: var(--link-color);
+}
+.contact-button{
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    
+    background-color: var(--primary-color);
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    
+}
